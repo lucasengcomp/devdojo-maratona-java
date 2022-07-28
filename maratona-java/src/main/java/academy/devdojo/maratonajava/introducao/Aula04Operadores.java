@@ -20,6 +20,20 @@ public class Aula04Operadores {
         System.out.println("Numero 1 é maior que o número 2? : " + isNumero1MaiorQueNumero2(numero1, numero2));
         System.out.println("Numero 1 é menor que o número 2? : " + isNumero1MenorQueNumero2(numero1, numero2));
         System.out.println("Numero 1 é diferente que o número 2? : " + isNumero1DiferenteDoNumero2(numero1, numero2));
+        System.out.println("Está dentro da lei brasileira? : " + isDentroDaLei(1234.56, 18));
+        System.out.println("Consegue comprar um Playstation 5? : " + isPodeComprarPlayStation5(3000.25, 2590.59, 5000.0));
+        System.out.println("Operação de negação (numero1 é maior que numero2?) : " + negarOperacao(numero1, numero2));
+    }
+
+    public static boolean negarOperacao(int n1, int n2) {
+        return !isNumero1MaiorQueNumero2(n1, n2);
+    }
+    public static boolean isPodeComprarPlayStation5(double saldoContaCorrente, double saldoContaPoupanca, double valorPlastation) {
+        return saldoContaCorrente >= valorPlastation || valorPlastation >= saldoContaPoupanca;
+    }
+
+    public static boolean isDentroDaLei(double salario, int idade) {
+        return idade >= 18 && salario > 1212.00;
     }
 
     public static boolean isNumero1DiferenteDoNumero2(int n1, int n2) {
