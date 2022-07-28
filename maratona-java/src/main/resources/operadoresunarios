@@ -1,0 +1,13 @@
+São eles:
+
+valor += 12; //mesmo que valor = valor + 12
+valor -= 12; //mesmo que valor = valor - 12
+valor *= 12; //mesmo que valor = valor * 12
+valor /= 12; //mesmo que valor = valor / 12
+valor %= 12; //mesmo que valor = valor % 12
+
+contador++   //mesmo que contador + 1 (executa primeiro o que vai ser feito antes de adicionar 1 na variavel)
+contador--   //mesmo que contador - 1 (executa primeiro o que vai ser feito antes de decrementar 1 na variavel)
+
+++contador   //mesmo que 1 + contador (incrementa antes de executar a instrução)
+--contador   //mesmo que 1 - contador (decrementa antes de executar a instrução)

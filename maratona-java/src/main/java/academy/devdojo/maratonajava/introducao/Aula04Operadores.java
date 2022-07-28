@@ -28,6 +28,7 @@ public class Aula04Operadores {
     public static boolean negarOperacao(int n1, int n2) {
         return !isNumero1MaiorQueNumero2(n1, n2);
     }
+
     public static boolean isPodeComprarPlayStation5(double saldoContaCorrente, double saldoContaPoupanca, double valorPlastation) {
         return saldoContaCorrente >= valorPlastation || valorPlastation >= saldoContaPoupanca;
     }
