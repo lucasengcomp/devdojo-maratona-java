@@ -9,4 +9,8 @@ public class Calculadora {
     public void subtraiDoisNumeros() {
         System.out.println(10 - 7);
     }
+
+    public void multiplicaDoisNumeros(int numero1, float numero2) {
+        System.out.println(numero1 * numero2);
+    }
 }
