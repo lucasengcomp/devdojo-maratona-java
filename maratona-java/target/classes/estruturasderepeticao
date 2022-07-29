@@ -1,0 +1,9 @@
+São eles:
+while -> executa a partir de uma condicional booleana
+    estrutura: while(condicao) { instrucoes.... }
+
+do while(faca enquanto) -> executa obrigatoriamente pelo menos 1 vez
+    estrutura: do { faca isso primeiro.... } while(condicao) { instrucoes.... }
+
+for
+foreach
