@@ -14,13 +14,12 @@ public class Aula05EstruturasCondicionais04 {
     }
 
     private static double validaFaixaSalarial(double salarioAnual, double primeiraFaixa, double segundaFaixa, double terceiraFaixa) {
-        double valorDoImposto;
         if (salarioAnual >= 34713 && salarioAnual <= 68507) {
-            return valorDoImposto = calculaSalarioAnual(salarioAnual, segundaFaixa);
+            return calculaSalarioAnual(salarioAnual, segundaFaixa);
         } else if (salarioAnual <= 34712) {
-            return valorDoImposto = calculaSalarioAnual(salarioAnual, primeiraFaixa);
+            return calculaSalarioAnual(salarioAnual, primeiraFaixa);
         } else {
-            return valorDoImposto = calculaSalarioAnual(salarioAnual, terceiraFaixa);
+            return calculaSalarioAnual(salarioAnual, terceiraFaixa);
         }
     }
 
