@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.blocosinicializacao.test;
 
-import academy.devdojo.maratonajava.blocosinicializacao.domain.Anime;
+import academy.devdojo.maratonajava.blocosinicializacao.dominio.Anime;
 
 public class AnimeTest01 {
 

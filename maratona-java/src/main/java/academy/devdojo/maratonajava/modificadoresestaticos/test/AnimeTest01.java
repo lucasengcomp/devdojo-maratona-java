@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.modificadoresestaticos.test;
 
-import academy.devdojo.maratonajava.modificadoresestaticos.domain.Anime;
+import academy.devdojo.maratonajava.modificadoresestaticos.dominio.Anime;
 
 public class AnimeTest01 {
 

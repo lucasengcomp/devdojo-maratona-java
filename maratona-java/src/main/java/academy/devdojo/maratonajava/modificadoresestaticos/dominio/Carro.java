@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.modificadoresestaticos.domain;
+package academy.devdojo.maratonajava.modificadoresestaticos.dominio;
 
 public class Carro {
 

@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.blocosinicializacao.domain;
+package academy.devdojo.maratonajava.blocosinicializacao.dominio;
 
 public class Anime {
 

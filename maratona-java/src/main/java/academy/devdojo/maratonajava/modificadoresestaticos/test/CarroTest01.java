@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.modificadoresestaticos.test;
 
-import academy.devdojo.maratonajava.modificadoresestaticos.domain.Carro;
+import academy.devdojo.maratonajava.modificadoresestaticos.dominio.Carro;
 
 public class CarroTest01 {
 
