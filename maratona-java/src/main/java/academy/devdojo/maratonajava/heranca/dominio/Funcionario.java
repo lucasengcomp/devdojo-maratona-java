@@ -8,6 +8,18 @@ public class Funcionario extends Pessoa {
         super(nome);
     }
 
+    static {
+        System.out.println("Dentro do bloco estático de funcionário");
+    }
+
+    {
+        System.out.println("Dentro do bloco de inicialização de funcionário");
+    }
+
+    {
+        System.out.println("Dentro do bloco de inicialização de funcionário");
+    }
+
     public void imprime() {
         super.imprime();
         System.out.println(this.salario);
