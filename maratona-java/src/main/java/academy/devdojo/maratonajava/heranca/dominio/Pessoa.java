@@ -4,15 +4,18 @@ public class Pessoa {
 
     protected String nome;
     protected String cpf;
-
     protected Endereco endereco;
 
-    public Pessoa() {
+    public Pessoa(String nome) {
+        this.nome = nome;
     }
 
     public Pessoa(String nome, String cpf) {
-        this.nome = nome;
+        this(nome);
         this.cpf = cpf;
+    }
+
+    public Pessoa() {
     }
 
     public void imprime() {
