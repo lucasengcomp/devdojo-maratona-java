@@ -19,7 +19,7 @@ public class Professor {
         this.especialidade = especialidade;
     }
 
-    public void imprimeDados() {
+    public void imprime() {
         System.out.println("--------------------");
         System.out.println("Professor" + this.nome);
         if (this.seminarios == null) return;

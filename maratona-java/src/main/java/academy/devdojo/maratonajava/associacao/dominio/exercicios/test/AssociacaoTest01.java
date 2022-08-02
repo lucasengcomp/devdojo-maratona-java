@@ -17,6 +17,6 @@ public class AssociacaoTest01 {
         Seminario[] seminariosDisponiveis = {seminario};
         professor.setSeminarios(seminariosDisponiveis);
 
-        professor.imprimeDados();
+        professor.imprime();
     }
 }
