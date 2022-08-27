@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.exceptions.exception.test;
+package academy.devdojo.maratonajava.exceptions.exception;
 
 public class RuntimeExceptionTest02 {
     public static void main(String[] args) {
