@@ -3,7 +3,7 @@ package academy.devdojo.maratonajava.exceptions.exception.test;
 import java.io.File;
 import java.io.IOException;
 
-public class ExceptionTest01 {
+public class RuntimeExceptionTest01 {
     public static void main(String[] args) {
         criaNovoArquivo();
     }
